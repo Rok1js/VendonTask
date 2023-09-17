@@ -72,14 +72,15 @@ class Application
             } else {
                 echo $result;
             }
+
         } catch (UnprocessableException $e) {
             $this->response->setStatusCode((int)$e->getCode());
             $message = $e->getOptions();
             echo json_encode($message);
-
         } catch (\Exception $e) {
             $this->response->setStatusCode((int)$e->getCode());
             $message = $e->getMessage();
+            
             if (is_array($message)) {
                 echo json_encode($message);
             } else {
