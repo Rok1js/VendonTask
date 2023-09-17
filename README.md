@@ -8,7 +8,7 @@
     - Configure apache or nginx server to run from `public` folder
     - Or:
         1. Navigate into public folder with `cd public`
-        2. Run `php -S <host>:<port>`
+        2. Run `php -S <host>:<port>` to start the server
 
 ## Frontend
 
