@@ -1,0 +1,31 @@
+.Question {
+  &-ButtonWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    place-items: center;
+    width: fit-content;
+    margin: 50px auto 0 auto;
+  }
+  .Button {
+    width: 200px;
+    min-height: 100px;
+    justify-content: center;
+
+    &_isSelected {
+        background-color: #EBC1B7;
+        outline: 4px auto -webkit-focus-ring-color;
+    }
+  }
+
+  &-NextButtonWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    button{
+        width: 170px;
+        height: 50px;
+    }
+  }
+}

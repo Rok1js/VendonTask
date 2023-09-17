@@ -1,0 +1,17 @@
+{
+  "name": "reinis/vendon",
+  "autoload": {
+    "psr-4": {
+      "Vendon\\": "./"
+    }
+  },
+  "authors": [
+    {
+      "name": "Reinis Barzdins"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "rbdwllr/reallysimplejwt": "^5.0"
+  }
+}

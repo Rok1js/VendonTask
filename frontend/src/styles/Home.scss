@@ -1,0 +1,53 @@
+.Home {
+  max-width: 1000px;
+
+  &-Title {
+    font-size: 40px;
+    margin-top: 200px;
+  }
+
+  &-Input {
+    input {
+      width: 100%;
+      height: 30px;
+      padding-left: 20px;
+      font-size: 20px;
+      box-sizing: border-box;
+
+      &::placeholder {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &-Select {
+    select {
+      margin-top: 20px;
+      width: 100%;
+      height: 30px;
+      padding-left: 20px;
+      font-size: 20px;
+      border-radius: 5px;
+    }
+  }
+
+  &-Button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    button {
+      width: 150px;
+      color: white;
+    }
+  }
+
+  &-Label {
+    display: none;
+
+    &_isError {
+      display: inline;
+      color: red;
+    }
+  }
+}
