@@ -9,7 +9,6 @@
     - Or:
         1. Navigate into public folder with `cd public`
         2. Run `php -S <host>:<port>`
-4. sew
 
 ## Frontend
 
